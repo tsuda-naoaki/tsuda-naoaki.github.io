@@ -1,27 +1,67 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naoaki Tsuda — 論文 / Research Papers</title>
+  <meta name="description" content="Naoaki Tsudaの論文。LCTRの日本語原典・英語訳、本文PDF、DOIへのリンク。">
+  <link rel="canonical" href="https://tsuda-naoaki.github.io/">
 
   <style>
     body {
-      margin: 0;
+      margin: 0 auto;
+      max-width: 56rem;
       min-height: 100vh;
-      display: grid;
-      place-items: center;
-      font-family: system-ui, sans-serif;
+      padding: 3rem 1.5rem;
+      box-sizing: border-box;
+      color: #20252b;
+      background: #fafafa;
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.75;
     }
-
-    a {
-      font-size: 2rem;
-      text-decoration: none;
+    h1 { margin: 0; font-size: 2rem; line-height: 1.3; }
+    .subtitle { margin: .5rem 0 2rem; color: #555; }
+    article { padding: 1.75rem; border: 1px solid #d8dde2; border-radius: .6rem; background: white; }
+    .paper-code { margin: 0 0 .75rem; font-weight: 700; letter-spacing: .08em; }
+    .theory-name { margin: 0 0 1.5rem; color: #555; font-size: .95rem; line-height: 1.6; }
+    .theory-name span { display: block; }
+    h2 { margin: 0 0 1rem; font-size: 1.4rem; line-height: 1.65; overflow-wrap: anywhere; }
+    .english-title { margin: 0 0 1rem; line-height: 1.6; }
+    .byline { color: #555; }
+    a { color: #124f86; text-underline-offset: .2em; }
+    a:hover { text-decoration-thickness: .15em; }
+    a:focus-visible { outline: 3px solid #124f86; outline-offset: 4px; }
+    .links { display: flex; flex-wrap: wrap; gap: .6rem 1.3rem; padding: 0; list-style: none; }
+    .doi { margin-bottom: 0; overflow-wrap: anywhere; }
+    @media (max-width: 40rem) {
+      body { padding: 2rem 1rem; }
+      article { padding: 1.25rem; }
+      h2 { font-size: 1.2rem; }
     }
   </style>
 </head>
 <body>
 
-  <a href="/lctr/">LCTR</a>
+  <main>
+    <header>
+      <h1>Naoaki Tsuda</h1>
+      <p class="subtitle">論文 / <span lang="en">Research Papers</span></p>
+    </header>
+    <article aria-labelledby="lctr-title">
+      <p class="paper-code"><a href="https://tsuda-naoaki.github.io/lctr/">LCTR</a></p>
+      <p class="theory-name">時間参照の局所比較理論<span lang="en">Local-comparison theory of time reference</span></p>
+      <h2 id="lctr-title">時間変数を物理法則の前提から帰結へ移す：局所比較による時間成立の完全記述と破綻分類の一般理論</h2>
+      <p class="english-title" lang="en">Moving the Time Variable from a Premise of Physical Law to a Consequence: A General Theory of the Complete Description of Time Establishment through Local Comparison and Failure Classification</p>
+      <p class="byline">Naoaki Tsuda · <time datetime="2026">2026</time></p>
+      <ul class="links">
+        <li><a href="https://tsuda-naoaki.github.io/lctr/">日本語要旨</a></li>
+        <li><a href="https://tsuda-naoaki.github.io/lctr/en.html" lang="en">English abstract</a></li>
+        <li><a href="https://tsuda-naoaki.github.io/lctr/lctr_main_jp.pdf" type="application/pdf">日本語本文 PDF</a></li>
+        <li><a href="https://tsuda-naoaki.github.io/lctr/lctr_main_en.pdf" type="application/pdf" lang="en">English main paper PDF</a></li>
+      </ul>
+      <p class="doi">DOI: <a href="https://doi.org/10.5281/zenodo.23207308">10.5281/zenodo.23207308</a></p>
+    </article>
+  </main>
 
   <!-- Cloudflare Web Analytics -->
   <script
