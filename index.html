@@ -38,7 +38,9 @@
       article { padding: 1.25rem; }
       h2 { font-size: 1.2rem; }
     }
+    footer{margin-top:2rem;font-size:.9rem}.analytics-info,.analytics-info *{box-sizing:border-box}.analytics-info{flex-basis:100%;width:100%}.analytics-info details{padding:.6rem 0}.analytics-info details p{margin:.8rem 0}.analytics-info button{font:inherit;color:#172732;background:white;border:1px solid #829397;border-radius:.2rem;padding:.45rem .8rem;cursor:pointer}.analytics-info button:focus-visible{outline:3px solid #c38738;outline-offset:3px}[data-analytics-status]{display:block;margin-top:.4rem}[data-analytics-panel]{position:fixed;z-index:10;bottom:1rem;right:1rem;width:min(36rem,calc(100vw - 2rem));max-height:calc(100vh - 2rem);overflow:auto;padding:1rem 1.2rem;background:#fff;border:1px solid #829397;border-radius:.3rem;box-shadow:0 .2rem 1rem #17273220;color:#172732;font:.9rem/1.65 system-ui,sans-serif}[data-analytics-panel] p{margin:0 0 .8rem}[data-analytics-panel] p a{display:inline-block}.analytics-actions{display:flex;gap:.8rem;flex-wrap:wrap}[hidden]{display:none!important}@media print{.analytics-info{display:none}}
   </style>
+  <script defer src="assets/analytics.js"></script>
 </head>
 <body>
 
@@ -62,6 +64,10 @@
       <p class="doi">DOI: <a href="https://doi.org/10.5281/zenodo.23207308">10.5281/zenodo.23207308</a></p>
     </article>
   </main>
+
+  <footer>
+<section class="analytics-info" aria-label="アクセス解析"><details id="analytics-privacy"><summary>アクセス解析とプライバシー / Analytics and privacy</summary><p>このサイトではCloudflare Web Analyticsで閲覧状況を集計します。<a href="https://www.cloudflare.com/privacypolicy/">Cloudflareのプライバシーポリシー</a>をご覧ください。</p><p>許可した場合に限り、Google Analytics 4（GA4）がCookieを使い、閲覧ページ、流入元、端末情報、PDF・ZIPリンクのクリックなどをGoogleへ送信します。クリック数はダウンロード完了数ではありません。広告向けのパーソナライズは使用しません。<a href="https://policies.google.com/technologies/partner-sites?hl=ja">Googleによるデータの利用</a>をご確認ください。許可・拒否の選択はこのブラウザに保存され、著者トップページとLCTR配下で共通です。下のボタンから変更できます。</p><div lang="en"><p>This site uses Cloudflare Web Analytics to summarize visits. See <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare’s privacy policy</a>.</p><p>Only with your permission, Google Analytics 4 (GA4) uses cookies and sends page views, traffic sources, device information, and PDF/ZIP link clicks to Google. Clicks do not establish completed downloads. Advertising personalization is disabled. See <a href="https://policies.google.com/technologies/partner-sites?hl=en">how Google uses data</a>. Your choice is saved in this browser and applies to the author’s home page and all LCTR pages. You can change it below.</p></div></details><button type="button" data-analytics-settings aria-controls="analytics-panel" aria-expanded="false" hidden>GA4計測設定 / Settings</button><span data-analytics-status role="status"></span><section id="analytics-panel" data-analytics-panel aria-label="GA4計測の選択" hidden><p>著者トップページとLCTR配下の閲覧状況やPDF・ZIPリンクのクリックをGA4で計測してよいですか。<a href="#analytics-privacy">アクセス解析の説明</a></p><p lang="en">Allow GA4 to measure visits and PDF/ZIP link clicks on this home page and all LCTR pages?</p><div class="analytics-actions"><button type="button" data-analytics-allow>許可する / Allow</button><button type="button" data-analytics-deny>許可しない / Do not allow</button></div></section><noscript>JavaScriptが無効なためGA4は動作しません。</noscript></section>
+  </footer>
 
   <!-- Cloudflare Web Analytics -->
   <script
