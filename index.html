@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Naoaki Tsuda — 論文 / Research Papers</title>
-  <meta name="description" content="Naoaki Tsudaの論文。LCTRの日本語原典・英語訳、本文PDF、DOIへのリンク。">
+  <meta name="description" content="Naoaki Tsudaの論文。LCTR、コメント論文、公開質問の技術ノート。要旨、日英PDF、証明資産を収録したZenodoと著者ORCIDへのリンク。">
   <link rel="canonical" href="https://tsuda-naoaki.github.io/">
 
   <style>
@@ -45,7 +45,26 @@
       h2 { font-size: 1.2rem; }
     }
     footer{margin-top:2rem;font-size:.9rem}.analytics-info,.analytics-info *{box-sizing:border-box}.analytics-info{flex-basis:100%;width:100%}.analytics-info details{padding:.6rem 0}.analytics-info details p{margin:.8rem 0}.analytics-info button{font:inherit;color:#172732;background:white;border:1px solid #829397;border-radius:.2rem;padding:.45rem .8rem;cursor:pointer}.analytics-info button:focus-visible{outline:3px solid #c38738;outline-offset:3px}[data-analytics-status]{display:block;margin-top:.4rem}[data-analytics-panel]{position:fixed;z-index:10;bottom:1rem;right:1rem;width:min(36rem,calc(100vw - 2rem));max-height:calc(100vh - 2rem);overflow:auto;padding:1rem 1.2rem;background:#fff;border:1px solid #829397;border-radius:.3rem;box-shadow:0 .2rem 1rem #17273220;color:#172732;font:.9rem/1.65 system-ui,sans-serif}[data-analytics-panel] p{margin:0 0 .8rem}[data-analytics-panel] p a{display:inline-block}.analytics-actions{display:flex;gap:.8rem;flex-wrap:wrap}[hidden]{display:none!important}@media print{.analytics-info{display:none}}
-  </style>
+  .author-links,.paper-nav,.paper-links,.collection-contents{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem 1.2rem;padding:0;list-style:none}
+.paper-nav{margin:1.1rem 0 1.6rem;border-block:1px solid #d8dde2;padding-block:.7rem}
+.author-links{margin:.35rem 0 1rem}.author-links a{word-break:normal}
+.collection{margin-top:2.5rem}.collection>h2{margin-bottom:.35rem}.collection>p{margin:0 0 1rem}
+.collection-card{margin-top:.9rem;padding:1.2rem 1.45rem}
+.collection-card h3,.comment-entry h2{line-height:1.45;overflow-wrap:break-word;text-wrap:pretty}
+.collection-card h3{margin:.3rem 0 .65rem;font-size:1.13rem}
+.collection-card p{margin:.38rem 0}.collection-card p[lang=en]{color:#40515a}
+.collection-card .paper-links{margin:.85rem 0 0}
+.target-line,.entry-kind,.paper-links,.collection-contents,.author-index{font:500 .91rem/1.55 system-ui,-apple-system,sans-serif}
+.target-line,.entry-kind{color:#435d68}.entry-kind{margin:0 0 .35rem;font-weight:650}
+.earlier-note{margin:1.1rem 0 .2rem;padding:.75rem 1.1rem;background:#f3f6f5;border-left:3px solid #739795}.earlier-note h3,.earlier-note h4{margin:0 0 .5rem;font-size:1.05rem}.earlier-note p{margin:.4rem 0}
+.comment-entry{padding:1.65rem 0;border-top:1px solid #cbd7d5;scroll-margin-top:1.5rem}
+.comment-entry h2{margin:.2rem 0 .65rem;font-size:clamp(1.35rem,3.5vw,1.75rem)}
+.comment-entry p{margin:.65rem 0}.comment-entry .finding{font-weight:600}
+.paper-links a,.collection-contents a{display:inline-block;padding:.25rem 0}
+.collection-contents{border-top:1px solid #cbd7d5;margin:1rem 0 0;padding:.65rem 0}
+.paper-links .related{font-weight:600}.author-index{margin:.6rem 0}
+@media(max-width:38rem){.paper-nav,.paper-links,.collection-contents{gap:.25rem .9rem}.collection-card{padding:1rem}.collection-card h3{font-size:1.07rem}.comment-entry{padding:1.2rem 0}}
+</style>
   <script defer src="assets/analytics.js"></script>
 </head>
 <body>
@@ -54,8 +73,8 @@
     <header>
       <h1>Naoaki Tsuda</h1>
       <p class="subtitle">論文 / <span lang="en">Research Papers</span></p>
-      <p><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13557349">SSRN著者ページ / <span lang="en">SSRN author profile</span></a></p>
-    </header>
+      <p class="author-links"><a href="https://orcid.org/0009-0007-2506-4026">ORCID: 0009-0007-2506-4026</a> <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13557349">SSRN著者ページ / <span lang="en">SSRN author profile</span></a></p>
+<ul class="paper-nav"><li><a href="#lctr-title">LCTR</a></li><li><a href="#comment-papers">コメント論文 / Comment papers</a></li><li><a href="#public-questions">『Forget time』公開質問 / Public questions</a></li></ul>    </header>
     <article aria-labelledby="lctr-title">
       <p class="paper-code"><a href="https://tsuda-naoaki.github.io/lctr/">LCTR</a></p>
       <p class="theory-name">時間参照の局所比較理論<span lang="en">Local-comparison theory of time reference</span></p>
@@ -80,6 +99,7 @@
       </nav>
       <p class="doi">DOI: <a href="https://doi.org/10.5281/zenodo.23207308">10.5281/zenodo.23207308</a></p>
     </article>
+<section id="comment-papers" class="collection"><h2>コメント論文 / <span lang="en">Comment papers</span></h2><ul class="paper-links"><li><a href="/lctr/comment-papers/">各論文の論点と関連資料</a></li><li><a href="/lctr/comment-papers/en.html" lang="en">Findings and related work</a></li></ul><article class="collection-card"><p class="target-line">対象論文 / Target article · <a href="https://doi.org/10.1007/s10701-011-9561-4">C. Rovelli, Foundations of Physics 41, 1475–1490 (2011)</a></p><h3 lang="en">Comment on “Forget time”: completeness of thermal flows and correspondence with physical clocks</h3><p>統計状態から熱流の方程式が決まっても、時計で測れる時間の存在までは導けないことを、二つの反例で示す。</p><p lang="en">Two counterexamples show why specifying a thermal-flow equation from a statistical state does not establish the existence of time measurable by a physical clock.</p><ul class="paper-links"><li><a href="https://doi.org/10.5281/zenodo.23608655">Zenodo：要旨・日英PDF・証明資産 / Abstract, PDFs &amp; proofs</a></li><li><a href="/lctr/comment-papers/#forget-time">論点</a></li><li><a href="/lctr/comment-papers/en.html#forget-time" lang="en">Findings</a></li></ul><aside id="public-questions" class="earlier-note"><h4>先行する公開質問 / <span lang="en">Earlier public questions</span></h4><p lang="en"><i>Incomplete thermal flows and thermal-clock existence: On equations (17)–(18) of Forget time</i></p><p>『Forget time』の式(17)–(18)を出発点に、熱流の定義域、観測量の相関、物理的な時計との対応をめぐる五つの公開質問と、その根拠を収録する。</p><p lang="en">Five public questions, with supporting arguments, examine the domain of the thermal flow, correlations between observables and correspondence with physical clocks in Eqs. (17)–(18) of Forget time.</p><ul class="paper-links"><li><a href="https://doi.org/10.5281/zenodo.23320911">Zenodo：質問・詳細論証・証明 / Questions, analysis &amp; proofs</a></li><li><a href="/lctr/public-questions/">公開質問の記録</a></li><li><a href="/lctr/public-questions/en.html" lang="en">Record of the questions</a></li></ul></aside></article><article class="collection-card"><p class="target-line">対象論文 / Target article · <a href="https://doi.org/10.1103/PhysRevD.87.084055">C. Rovelli, Physical Review D 87, 084055 (2013)</a></p><h3 lang="en">Comment on “General relativistic statistical mechanics”</h3><p>局所的なギブズ関係を満たしても、統計状態から平衡時間を読み取るために必要な、集団全体の定常発展は保証されない。</p><p lang="en">Even when the local Gibbs relation holds, the statistical state need not determine the stationary evolution of the ensemble required to infer equilibrium time.</p><ul class="paper-links"><li><a href="https://doi.org/10.5281/zenodo.23852096">Zenodo：要旨・日英PDF・証明資産 / Abstract, PDFs &amp; proofs</a></li><li><a href="/lctr/comment-papers/#grsm">論点</a></li><li><a href="/lctr/comment-papers/en.html#grsm" lang="en">Findings</a></li></ul></article><article class="collection-card"><p class="target-line">対象論文 / Target article · <a href="https://doi.org/10.1007/JHEP04(2026)072">K. Fujiki et al., Journal of High Energy Physics 04 (2026) 072</a></p><h3 lang="en">Comment on “Entropic interpretation of Einstein equation in dS/CFT”</h3><p>境界の擬エントロピーの第一法則と重力計算の一致は、あらかじめ時間を与えたド・ジッター時空との整合性を示すが、その時間の創発を示さない。</p><p lang="en">Agreement between the boundary first law of pseudo-entropy and the gravity calculation tests a de Sitter spacetime whose time coordinate is already specified; it does not derive that time.</p><ul class="paper-links"><li><a href="https://doi.org/10.5281/zenodo.23979410">Zenodo：要旨・日英PDF・証明資産 / Abstract, PDFs &amp; proofs</a></li><li><a href="/lctr/comment-papers/#ds-cft">論点</a></li><li><a href="/lctr/comment-papers/en.html#ds-cft" lang="en">Findings</a></li></ul></article></section>
   </main>
 
   <footer>
