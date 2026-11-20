@@ -14,6 +14,7 @@ LCTR claims to be the first theory in human history to construct physical time f
 | 内容 / Content | 日本語 | English |
 |---|---|---|
 | 論文・要旨 / Paper and abstract | [日本語原典](https://tsuda-naoaki.github.io/lctr/) | [English translation](https://tsuda-naoaki.github.io/lctr/en.html) |
+| 本文・補遺（Web） / Full text and supplement (Web), v1.0.1 | [日本語原典（Web）](https://tsuda-naoaki.github.io/lctr/full-text/ja/) | [English translation (Web)](https://tsuda-naoaki.github.io/lctr/full-text/en/) |
 | 時間の作り方 / How to construct time | [日本語](https://tsuda-naoaki.github.io/lctr/create-time/) | [English](https://tsuda-naoaki.github.io/lctr/create-time/en.html) |
 | 物理学への告発、世界への挑戦状 / An Indictment of Physics, a Challenge to the World | [日本語](https://tsuda-naoaki.github.io/lctr/world-challenge/) | [English](https://tsuda-naoaki.github.io/lctr/world-challenge/en.html) |
 
