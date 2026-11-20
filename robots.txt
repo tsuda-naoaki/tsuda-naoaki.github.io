@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://tsuda-naoaki.github.io/sitemap.xml
+Sitemap: https://tsuda-naoaki.github.io/lctr/sitemap.xml
